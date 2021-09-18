@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+.bg-orange {
+  background-color: var(--bright-orange);
+}
+
+.bg-cyan {
+  background-color: var(--dark-cyan);
+}
+
+.bg-very-cyan {
+  background-color: var(--very-dark-cyan);
+}
+
+.color-orange {
+  color: var(--bright-orange);
+}
+
+.color-cyan {
+  color: var(--dark-cyan);
+}
+
+.color-very-cyan {
+  color: var(--very-dark-cyan);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  max-width: 1010px;
+  max-height: 60%;
+  background-color: transparent;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card {
+  color: white;
+  float: left;
+  max-width: calc(100% / 3);
+  height: 100%;
+  box-sizing: border-box;
+  padding: 3rem 4rem;
+}
+
+.card-title {
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.btn {
+  position: absolute;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  font-size: 1rem;
+  top: 80%;
+}
