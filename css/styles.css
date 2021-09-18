@@ -1,10 +1,11 @@
 body {
-  background-color: white;
+  background-color: var(--very-light-gray);
   font-family: 'Lexend Deca', sans-serif;
   font-size: 15px;
 }
 
 :root {
+  --very-light-gray: hsl(0, 0%, 95%);
   --bright-orange: hsl(31, 77%, 52%);
   --dark-cyan: hsl(184, 100%, 22%);
   --very-dark-cyan: hsl(179, 100%, 13%);
@@ -49,7 +50,7 @@ body {
 }
 
 .card {
-  color: white;
+  color: var(--very-light-gray);
   float: left;
   max-width: calc(100% / 3);
   height: 100%;
@@ -66,7 +67,7 @@ body {
 .btn {
   position: absolute;
   font-family: 'Lexend Deca', sans-serif;
-  background-color: white;
+  background-color: var(--very-light-gray);
   border: none;
   padding: 1rem 2rem;
   border-radius: 3rem;
